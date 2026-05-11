@@ -93,7 +93,7 @@ $partnerStmt->execute();
     </style>
     <script>
         function confirmAction(url) {
-            const masterPassword = "plase your own password"; 
+            const masterPassword = "ashuni"; 
             let password = prompt("Action Restricted: Please enter the Admin Password to proceed:");
 
             if (password === masterPassword) {

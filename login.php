@@ -5,7 +5,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 // Your sneaky password
-$admin_password = "plase your own password"; 
+$admin_password = "ashuni"; 
 
 // If already logged in, skip the login page and go to registry
 if (isset($_SESSION['asb_admin']) && $_SESSION['asb_admin'] === true) {
